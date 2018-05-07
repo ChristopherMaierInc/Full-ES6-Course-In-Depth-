@@ -1,10 +1,15 @@
-var check = function(number) {
-  if (number % 2 == 0) {
-    console.log(number + " is even");
-  } else {
-    console.log(number + " is odd");
-  }
+var x = 13;
+
+switch(x) {
+  case 1:
+    console.log("The number is one!");
+    break;
+  case 2:
+    console.log("The number is two!");
+    break;
+  case 3:
+    console.log("The number is three!");
+    break;
+  default:
+  console.log("The number is " + x);
 }
-check(4);
-check(7);
-check(111);
