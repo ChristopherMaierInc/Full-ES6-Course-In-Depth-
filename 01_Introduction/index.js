@@ -1,2 +1,7 @@
-var snake_case = 'goke' + 'sam newmanson';
-var camelCase = 'hello';
+var multiply = function(a, b) {
+  return a*b;
+}
+
+var product = multiply(5, 10);
+
+console.log(product);
