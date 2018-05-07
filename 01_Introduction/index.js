@@ -1,10 +1,3 @@
-var dog = {
-  name: 'Buddy',
-  breed: 'Golden Retriever',
-  weight: 60,
-  bark: function() {
-    console.log("Woof!");
-  }
-};
-
-dog.bark();
+var points = [23, 7, 14, 9, 19];
+var first = points[0];
+console.log(points.length);
