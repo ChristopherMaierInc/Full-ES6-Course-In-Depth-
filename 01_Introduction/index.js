@@ -1,7 +1,10 @@
-var multiply = function(a, b) {
-  return a*b;
-}
+var dog = {
+  name: 'Buddy',
+  breed: 'Golden Retriever',
+  weight: 60,
+  bark: function() {
+    console.log("Woof!");
+  }
+};
 
-var product = multiply(5, 10);
-
-console.log(product);
+dog.bark();
