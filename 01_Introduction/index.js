@@ -1,3 +1,2 @@
-var points = [23, 7, 14, 9, 19];
-var first = points[0];
-console.log(points.length);
+var a = 5 <= 7;
+console.log(a)
