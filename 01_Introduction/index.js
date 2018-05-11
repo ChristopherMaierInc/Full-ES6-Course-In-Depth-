@@ -1,15 +1,15 @@
-var x = 13;
+var names = ["Frodo", "Sam", "Merry", "Pippin"];
 
-switch(x) {
-  case 1:
-    console.log("The number is one!");
-    break;
-  case 2:
-    console.log("The number is two!");
-    break;
-  case 3:
-    console.log("The number is three!");
-    break;
-  default:
-  console.log("The number is " + x);
-}
+// for (var i=0; i<names.length; i++) {
+//   console.log(names[i])
+// }
+
+var i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
+do {
+  console.log(names[i]);
+  i++;
+}  while (i < names.length);
